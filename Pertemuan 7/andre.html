@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Form di html</title>
+		<meta charset="UTF-8"/> <!-- viewport berfungsi untuk mengatur ukuran dan skala web -->
+		<meta name="viewport" content="width=device-width initial-scale=1.0">
+		<meta name="author" content="Andre Mahesa Putra">
+		<meta name="description" content="tag form">
+		<link rel="shortcut icon" href="icon.ico">
+	</head>
+	<body>
+		<form action="" method="">
+			<table width="100%">
+				<tr>
+					<td width="20%">First Name</td>
+					<td width="2%"> : </td>
+					<td width="73%">
+						<input type="text" name="first_name" maxlength="30" placeholder="First name">
+					</td>
+				</tr>
+				<tr>
+					<td width="20%">Last Name</td>
+					<td width="2%"> : </td>
+					<td width="73%">
+						<input type="text" name="last_name" maxlength="30" placeholder="Last name">
+					</td>
+				</tr>
+				<tr>
+					<td width="20%">Username</td>
+					<td width="2%"> : </td>
+					<td width="73%">
+						<input type="text" name="username" maxlength="30" placeholder="Username">
+					</td>
+				</tr>
+				<tr>
+					<td width="20%">Password</td>
+					<td width="2%"> : </td>
+					<td width="73%">
+						<input type="password" name="password" maxlength="30" placeholder="Password">
+					</td>
+				</tr>
+				<tr>
+					<td width="20%">Re Type Password</td>
+					<td width="2%"> : </td>
+					<td width="73%">
+						<input type="password" name="retype_password" maxlength="30" placeholder="Re Type Password">
+					</td>
+				</tr>
+				<tr valign="top">
+					<td width="20%">Gender</td>
+					<td width="2%"> : </td>
+					<td width="73%">
+						<input type="radio" checked name="gender" value="Male">Male<br>
+						<input type="radio" name="gender" value="Female">Female<br>
+					</td>
+				</tr>
+				<tr>
+					<td width="20%">Image</td>
+					<td width="2%"> : </td>
+					<td width="73%">
+						<input type="file" name="image">
+					</td>
+				</tr>
+				<tr>
+					<td width="20%">Tanggal Lahir</td>
+					<td width="2%"> : </td>
+					<td width="73%">
+						<input type="date" name="tgl_lahir" placeholder="Tanggal Lahir">
+					</td>
+				</tr>
+			</table>	
+			<input type="checkbox" disabled checked name="agree" value="Bola">I Agree With Terms and Condition<br>
+			<input type="submit" value="Submit"> 
+			<input type="reset" value="Reset"> 
+	</body>
+</html>
