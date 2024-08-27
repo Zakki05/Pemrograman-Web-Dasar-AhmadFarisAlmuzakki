@@ -1,0 +1,21 @@
+<!DOCTYOPE html>
+<html lang="en">
+	<head>
+		<title>Bekerja dengan Frame Lanjutan di HTML </title>
+		<meta charset="UTF-8"/>
+		<!-- viewport berfugsi untuk engatur ukuran dan skala di web -->
+		<meta name="viewport" content="width=device-width" initial-scale="1.0">
+		<meta name="author" content="Ahmad Faris Almuzakki">
+		<meta name="description" content="tag frame">
+		<link rel="shortcut icon" href="icon.ico">
+	</head>
+	<frameset rows="10%,*,8%" noresize="noresize" framespacing="0" frameborder="no">
+		<frame src="header.html">
+		<frameset cols="20%,60%,20%">
+			<frame src="menu_kiri.html">
+			<frame src="home_page.html" name="konten">
+			<frame src="menu_kanan.html">
+		</frameset>
+		<frame src="footer.html">
+	</frameset>
+</html>
